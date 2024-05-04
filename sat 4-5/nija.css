@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+.links{
+    margin-left: auto;
+}
+nav h1{
+    color: rgb(255, 162, 0);
+    font-size: xx-large;
+    font-weight: 900;
+}
+.links a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 20px;
+    
+} 
+.links a:hover{
+    color:  rgb(255, 162, 0);
+} 
+.content{
+    max-width: 600px;
+    padding: 20px;
+    margin:40px auto ;
+}
+.content h2{
+    color: rgb(255, 162, 0);
+    margin-bottom: 20px;
+   
+}
+article{
+    border-bottom: 1px solid #f2f2f2;
+   
+}
+
+article h3{
+    color: rgb(255, 162, 0);
+    margin: 10px;
+}
+article p{
+    margin: 10px;
+}
+article .aurthor{
+    font-size: large;
+    font-weight: 700;
+    
+}
+label{
+    position: absolute;
+    left: -100000px;
+}
+input{
+    padding: 5px;
+    margin: 20px;
+    width: 500px;
+    border: 3px solid #f2f2f2;
+    border-radius: 10px;
+
+}
+textarea{
+    padding: 5px;
+    margin: 20px;
+    width: 500px;
+    height: 350px;
+    border: 3px solid #f2f2f2;
+    border-radius: 10px;
+
+}
+input:focus{
+    border-color: rgb(255, 162, 0);
+}
+input:hover{
+    border-color: rgb(255, 162, 0);
+}
+
+select{
+  
+    padding: 5px;
+    margin: 20px;
+    width: 200px;
+    border: 3px solid #f2f2f2;
+    border-radius: 10px;
+}
+button{
+    display: block;
+    padding: 5px;
+    margin: 20px;
+    margin-top: 1px;
+    width: 100px;
+    border: 3px solid #333;
+    border-radius: 10px;
+}
+button:hover{
+   
+    border: 3px solid  rgb(255, 162, 0);
+    background-color:rgb(255, 162, 0);
+    color: #f2f2f2;
+}
+article a{
+    text-decoration: none;
+}
+.delete:hover{
+    background-color: red;
+}
+.delete{
+    display: block;
+    padding: 5px;
+    margin: 10px;
+margin-top: 40px;
+    width: 100px;
+    border: 3px solid #333;
+    border-radius: 10px;
+}
+.title{
+    font-size:x-large;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.blog-cont{
+    margin-bottom: 40px;
+}
